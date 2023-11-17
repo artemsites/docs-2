@@ -49,7 +49,7 @@ $insert->values([
 To run InsertQuery we should only execute method `run()` which will return last inserted id as result:
 
 ```php
-print_r($db->run());
+print_r($insert->run());
 ```
 
 > You can also use fluent syntax: `$database->insert('table')->values(...)->run()`.
