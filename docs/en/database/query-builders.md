@@ -1080,7 +1080,7 @@ Nested queries are also supported:
 ```php
 $update = $db->table('test')
     ->update([
-        'name' => $database
+        'name' => $db
             ->table('users')
             ->select('name')
             ->where('id', 1)
