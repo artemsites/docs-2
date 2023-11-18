@@ -413,6 +413,7 @@ $r = new \Cycle\Database\Schema\Reflector();
 $r->addTable($schemaB);
 $r->addTable($schema);
 
+// Where did $pool come from?
 $pool->run();
 ```
 
